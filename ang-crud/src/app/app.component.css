@@ -1,0 +1,12 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+.app {
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 30px;
+    background: #fff;
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
