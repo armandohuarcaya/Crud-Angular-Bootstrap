@@ -1,0 +1,29 @@
+
+<div class="col-md-6">
+  <h2> User Details</h2>
+  <button class="btn btn-danger" (click)="listCategorias(i)"> Add User</button>
+  
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th class="hidden">Id</th>
+      <th>Nombre Categoria</th>
+      <th>Descripcion</th>
+      <th>Tipo Categoria</th>
+      <th>Estado</th>
+      <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let categorias of categoria">
+      <td class="hidden"></td>
+      <td>{{categorias.nombreCategoria}}</td>
+      <td>{{categorias.nombreCategoria}}</td>
+      <td>{{categorias.descripcion}}</td>
+      <td>{{categorias.tipoCategoria}}</td>
+      <td>{{categorias.estado}}</td>
+    </tr>
+    
+    </tbody>
+  </table>
+</div>
